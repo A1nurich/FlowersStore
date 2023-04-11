@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4f671d17759a4c5b8ebc0c271d31792c" Name="Diagram1">
+        <EntityTypeShape EntityType="FlowersStoreBDModel.Category" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowersStoreBDModel.Manufacture" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowersStoreBDModel.Product" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowersStoreBDModel.Provider" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowersStoreBDModel.Role" Width="1.5" PointX="5.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowersStoreBDModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowersStoreBDModel.User" Width="1.5" PointX="8" PointY="2.25" IsExpanded="true" />
+        <AssociationConnector Association="FlowersStoreBDModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="FlowersStoreBDModel.FK_Product_Manufacture" ManuallyRouted="false" />
+        <AssociationConnector Association="FlowersStoreBDModel.FK_Product_Provider" ManuallyRouted="false" />
+        <AssociationConnector Association="FlowersStoreBDModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

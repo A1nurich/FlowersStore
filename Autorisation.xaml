@@ -1,0 +1,19 @@
+﻿<Window x:Class="FlowersStore.Autorisation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlowersStore"
+        mc:Ignorable="d"
+        Title="Autorisation" Height="450" Width="800" WindowStyle="None">
+    <Grid>
+        <Label FontFamily="Comic Sans MS" FontSize="50" FontWeight="Bold" Content="Авторизация" HorizontalAlignment="Center" Height="78" Margin="236,0" VerticalAlignment="Top"/>
+        <Label FontFamily="Comic Sans MS" FontSize="15" FontWeight="Bold" Content="Логин" HorizontalAlignment="Center" Margin="368,125,368,291"/>
+        <TextBox Name="LoginTextBox" FontFamily="Comic Sans MS" FontSize="15" FontWeight="Bold" Width="150" Height="25" Margin="0,0,0,115" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label FontFamily="Comic Sans MS" FontSize="15" FontWeight="Bold" Content="Пароль" HorizontalAlignment="Center" Margin="363,175,363,241"/>
+        <PasswordBox Name="PasswordBox" FontFamily="Comic Sans MS" FontSize="15" FontWeight="Bold" Width="150" Height="25" Margin="0,100,0,115" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button Name="SignInButton" Click="SignInButton_Click" Width="150" Height="25" FontFamily="Comic Sans MS" FontSize="15" FontWeight="Bold" Content="Sign In" Background="WhiteSmoke" Margin="0,75,0,0"/>
+        <Separator Width="200" Margin="0,130,0,0" Height="10"/>
+        <Button Name="SignInButtonClient" Click="SignInButtonClient_Click" Width="150" Height="25" FontFamily="Comic Sans MS" FontSize="15" FontWeight="Bold" Content="Guest" Background="WhiteSmoke" Margin="0,175,0,0"/>
+    </Grid>
+</Window>
